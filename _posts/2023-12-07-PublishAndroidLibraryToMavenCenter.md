@@ -1,6 +1,7 @@
 ---
 title: '上传 Android Library 到 Maven Center'
-date: 2023-12-07
+date: 2023-12-06
+modified: 2023-12-08
 excerpt: '创建一个本地的 Android Library, 发布到 Maven 的流程'
 permalink: /posts/2023/12/08/PublishAndroidLibraryToMavenCenter/
 tags:
@@ -8,10 +9,10 @@ tags:
   - Maven
 ---
 
-* TOC
-{:toc #markdown-toc}
+{% include base_path %}
+{% include toc %}
 
-> 版本：1.0.0
+> 版本：1.0.1
 > 
 > 修改日期: 2023-12-08
 
@@ -189,9 +190,9 @@ GPG_SIGNING_PASSWORD=your password
 gpg: sending key 111C6075260DD515 to https://keys.openpgp.org
 ```
 
-### 配置 build.gradle
+## 配置 build.gradle
 
-#### 添加 plugin
+### 添加 plugin
 
 ```groovy
 plugins {
@@ -200,7 +201,7 @@ plugins {
 }
 ```
 
-#### 添加 publish task
+### 添加 publish task
 
 参考文档: [Android publish library](https://developer.android.com/studio/publish-library)
 
@@ -395,7 +396,6 @@ project.afterEvaluate {
 > Task :library:generateMetadataFileForReleasePublication
 > Task :library:generatePomFileForReleasePublication
 > Task :library:signReleasePublication
-```
 
 ### 上传 Library
 
@@ -444,7 +444,7 @@ gradle rebuild 之后，查看 gradle task
 > Task :library:signReleasePublication
 ```
 
-### Release
+## Release
 
 登录 [stagingRepositories](https://s01.oss.sonatype.org/#stagingRepositories)，点击你的 respository, 点击 Activity。如果校验成功点击 Close, 然后点击 Release.
 Lirary 就 release 成功了。等几个小时后就可以去 [Maven Central Search](https://search.maven.org/) 中 搜索你的 Library 了。
