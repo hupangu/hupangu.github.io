@@ -1,13 +1,19 @@
 ---
 title: '上传 Android Library 到 Maven Center'
 date: 2023-12-07
+excerpt: '创建一个本地的 Android Library, 发布到 Maven 的流程'
 permalink: /posts/2023/12/08/PublishAndroidLibraryToMavenCenter/
 tags:
   - Android
   - Maven
 ---
 
-> 创建一个本地的 Android Library, 发布到 Maven 的流程。
+* TOC
+{:toc #markdown-toc}
+
+> 版本：1.0.0
+> 
+> 修改日期: 2023-12-08
 
 ## 文档
 1. [Gradle signing plugin](https://docs.gradle.org/current/userguide/signing_plugin.html)
