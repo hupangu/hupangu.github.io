@@ -35,7 +35,7 @@ tags:
 #### 创建 [Sonatype](https://issues.sonatype.org) 账号
 
 打开 [https://issues.sonatype.org/secure/Signup!default.jspa](https://issues.sonatype.org/secure/Signup!default.jspa) 创建账号
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/34525258/1671007606491-603a75fb-93ca-4a26-855d-2f552a50894b.png#averageHue=%23fefefe&clientId=ub47a6bd1-679d-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=262&id=u26584c3e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=524&originWidth=576&originalType=binary&ratio=1&rotation=0&showTitle=false&size=49384&status=done&style=none&taskId=u5d1143c0-105e-4e04-bf2c-d709328d50c&title=&width=288#averageHue=%23fefefe&id=Knma9&originHeight=524&originWidth=576&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![sonatype-start](media/sonatype-start.png)
 
 #### 创建 Issue
 
@@ -44,8 +44,8 @@ tags:
 - **Group Id:**io.github.username
 - **Project URL:**[https://github.com/username/](https://github.com/fengshenyanyi/Logcat)project
 - **SCM url:**[https://github.com/username/project.git](https://github.com/fengshenyanyi/Logcat.git)
+![sonatype-create](media/sonatype-create.png)
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/34525258/1671007810384-80dc93ba-2160-4a93-b399-076c11767e04.png#averageHue=%23fbfbfb&clientId=u0c120768-ed0f-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=428&id=u268a54de&margin=%5Bobject%20Object%5D&name=image.png&originHeight=856&originWidth=811&originalType=binary&ratio=1&rotation=0&showTitle=false&size=112439&status=done&style=none&taskId=u50e8de46-87e7-432e-8f5a-f6de684c3ac&title=&width=405.5#averageHue=%23fbfbfb&id=WD9f2&originHeight=856&originWidth=811&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
 否则他会提示你创建错误，让你进行修改
 
 ```text
@@ -148,7 +148,7 @@ generator a better chance to gain enough entropy.
 ```
 
 输入 O 后会提示你设置密码
-![Screen Shot 2022-12-14 at 15.35.26.png](https://cdn.nlark.com/yuque/0/2022/png/34525258/1671003458535-2b6da531-3897-4107-a06d-1a2547022b61.png#averageHue=%23343034&clientId=u46a9665b-1cdc-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=263&id=u8f25754f&margin=%5Bobject%20Object%5D&name=Screen%20Shot%202022-12-14%20at%2015.35.26.png&originHeight=526&originWidth=1088&originalType=binary&ratio=1&rotation=0&showTitle=false&size=107541&status=done&style=none&taskId=u3b85cd0e-a3b3-40fa-bbc8-e165844abe2&title=&width=544#averageHue=%23343034&id=o9N6f&originHeight=526&originWidth=1088&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![sonatype-password](media/sonatype-password.png)
 
 1. 执行`gpg -K`查看生成的秘钥.
 其中 sec 的 **58C3084CA8EF5DA8724421A0F50141723D0E90A8** 为KeyID
@@ -400,7 +400,8 @@ project.afterEvaluate {
 ### 上传 Library
 
 gradle rebuild 之后，查看 gradle task
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/34525258/1671010762373-1b36075c-34f8-4c5a-8c1f-33735f0375cd.png#averageHue=%233a424b&clientId=u0c120768-ed0f-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=122&id=udab9a3dc&margin=%5Bobject%20Object%5D&name=image.png&originHeight=244&originWidth=437&originalType=binary&ratio=1&rotation=0&showTitle=false&size=46544&status=done&style=none&taskId=u6c2c5e12-d4a4-4d27-9528-391ea5ec93e&title=&width=218.5#averageHue=%233a424b&id=uCYXk&originHeight=244&originWidth=437&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![gradle-task](media/gradle-task.png)
+
 点击 `publishReleasePublicationToMavenRepository`，执行以下 tasks 后就可以去 [stagingRepositories](https://s01.oss.sonatype.org/#stagingRepositories) 查看 Android studio 上传上了的包了。
 
 ```shell
@@ -448,4 +449,5 @@ gradle rebuild 之后，查看 gradle task
 
 登录 [stagingRepositories](https://s01.oss.sonatype.org/#stagingRepositories)，点击你的 respository, 点击 Activity。如果校验成功点击 Close, 然后点击 Release.
 Lirary 就 release 成功了。等几个小时后就可以去 [Maven Central Search](https://search.maven.org/) 中 搜索你的 Library 了。
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/34525258/1671011270885-d67d57e6-f3e4-47d1-ad92-ebb704c59e00.png#averageHue=%23dbdbdb&clientId=u99b7315f-45e1-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=630&id=u93bd7036&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1260&originWidth=3334&originalType=binary&ratio=1&rotation=0&showTitle=false&size=320606&status=done&style=none&taskId=u9d07c1fd-c7ee-406a-8de1-dfded6815a5&title=&width=1667#averageHue=%23dbdbdb&id=tDiUN&originHeight=1260&originWidth=3334&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![maven-release](media/maven-release.png)
+
