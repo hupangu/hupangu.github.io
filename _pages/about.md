@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-> 版本控制: 0.0.2
+> 版本控制: 0.0.2</br>
 > Commit: 2886436525bd6ea18d04c1048a194543f40e548b
 
 ## 博客仓库
