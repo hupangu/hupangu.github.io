@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hupangu 开天辟地之所...."
+title: "盘古开天辟地之所。"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-# Hupangu 的个人博客
-> VERSION: 0.0.2
+> 版本控制: 0.0.2
+> 
 ## 博客仓库
 1. [Markdown](https://github.com/pangu-documents/Documents/blob/main/Markdown.md) `TDO`
 2. [Bluetooth](https://github.com/pangu-documents/Documents/blob/main/Bluetooth.md) `TODO`
