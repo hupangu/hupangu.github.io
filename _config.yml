@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "拨开混沌，方见天地。"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "盘古"
 description              : &description "personal description"
 url                      : https://hupangu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "HuPangu"
+  name             : "盘古(pangu)"
   avatar           : "pangu.png"
   bio              : "世界愈发纷繁，信息愈发混杂。唯有拨开这眼前的迷雾，方才能知脚下路往何处。"
   location         : 
