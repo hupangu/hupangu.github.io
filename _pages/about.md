@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "劈开混沌，方现天地"
-excerpt: "About me"
+excerpt: "博客简介"
 author_profile: true
 redirect_from: 
   - /about/
