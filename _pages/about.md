@@ -9,7 +9,8 @@ redirect_from:
 ---
 
 > 版本控制: 0.0.2
-> 
+> Commit: 2886436525bd6ea18d04c1048a194543f40e548b
+
 ## 博客仓库
 1. [Markdown](https://github.com/pangu-documents/Documents/blob/main/Markdown.md) `TDO`
 2. [Bluetooth](https://github.com/pangu-documents/Documents/blob/main/Bluetooth.md) `TODO`
