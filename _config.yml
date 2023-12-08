@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "拨开混沌，方见天地。"
+title                    : "首页"
 title_separator          : "-"
 name                     : &name "盘古"
 description              : &description "personal description"

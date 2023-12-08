@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "盘古开天辟地之所。"
+title: "劈开混沌，方现天地"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-> 版本控制: 0.0.2
+> 版本控制: 1.0.2
 
 ## 博客仓库
 1. [Markdown](https://github.com/pangu-documents/Documents/blob/main/Markdown.md) `TDO`
