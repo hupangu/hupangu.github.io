@@ -10,14 +10,13 @@ redirect_from:
 
 > 版本控制: 1.0.2
 
-## 博客仓库
-1. [Markdown](https://github.com/pangu-documents/Documents/blob/main/Markdown.md) `TDO`
-2. [Bluetooth](https://github.com/pangu-documents/Documents/blob/main/Bluetooth.md) `TODO`
-3. [Glide](https://github.com/pangu-documents/Documents/blob/main/Glide.md) `TODO`
-4. [Rerofit](https://github.com/pangu-documents/Documents/blob/main/Retrofit.md) `TODO`
-5. [RxJava](https://github.com/pangu-documents/Documents/blob/main/RxJava%20document.md) `TODO`
-6. [上传 Android Library 到 Maven Center](https://github.com/pangu-documents/Documents/blob/main/%E4%B8%8A%E4%BC%A0%20Android%20Library%20%E5%88%B0%20Maven%20Center.md) `Complete`
-7. [Mac 系统下 AOSP 下载/编译/阅读](https://github.com/pangu-documents/Documents/blob/main/AOSP.md)
+## 常用命令
+## Mac 上好用的小工具
+- 流量监控器 [ITraffic for Mac](https://github.com/foamzou/ITraffic-monitor-for-mac)
+  >MacOS version required, The macOS version should>= 10.15
+  ![itraffic](assets/itraffic.png)
 
-## 图书馆
-## 知识图谱
+- 截屏小工具 [Shotrr](https://shottr.cc/)
+  > 一款 Mac 电脑的免费截屏软件，性能非常好，支持滚动截屏，还可以像素级修补图像。只不过不支持中文，但是支持中文的 OCR，国内的比较好的截图软件，比较推荐「Xnip」，免费版也足够日常使用。
+  ![shotrr](assets/shotrr.jpeg)
+
