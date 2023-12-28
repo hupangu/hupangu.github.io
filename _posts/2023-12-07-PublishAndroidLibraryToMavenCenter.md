@@ -35,7 +35,7 @@ tags:
 #### 创建 [Sonatype](https://issues.sonatype.org) 账号
 
 打开 [https://issues.sonatype.org/secure/Signup!default.jspa](https://issues.sonatype.org/secure/Signup!default.jspa) 创建账号
-![sonatype-start](https://github.com/hupangu/hupangu.github.io/tree/dev/assets/sonatype-start.png)
+![sonatype-start](/assets/images/sonatype-start.png)
 
 #### 创建 Issue
 
@@ -44,7 +44,7 @@ tags:
 - **Group Id:**io.github.username
 - **Project URL:**[https://github.com/username/](https://github.com/fengshenyanyi/Logcat)project
 - **SCM url:**[https://github.com/username/project.git](https://github.com/fengshenyanyi/Logcat.git)
-![sonatype-create](https://github.com/hupangu/hupangu.github.io/tree/dev/assets/sonatype-create.png)
+![sonatype-create](/assets/images/sonatype-create.png)
 
 否则他会提示你创建错误，让你进行修改
 
@@ -148,7 +148,7 @@ generator a better chance to gain enough entropy.
 ```
 
 输入 O 后会提示你设置密码
-![sonatype-password](https://github.com/hupangu/hupangu.github.io/tree/dev/assets/sonatype-password.png)
+![sonatype-password](/assets/images/sonatype-password.png)
 
 1. 执行`gpg -K`查看生成的秘钥.
 其中 sec 的 **58C3084CA8EF5DA8724421A0F50141723D0E90A8** 为KeyID
@@ -400,7 +400,7 @@ project.afterEvaluate {
 ### 上传 Library
 
 gradle rebuild 之后，查看 gradle task
-![gradle-task](https://github.com/hupangu/hupangu.github.io/tree/dev/assets/gradle-task.png)
+![gradle-task](/assets/images/gradle-task.png)
 
 点击 `publishReleasePublicationToMavenRepository`，执行以下 tasks 后就可以去 [stagingRepositories](https://s01.oss.sonatype.org/#stagingRepositories) 查看 Android studio 上传上了的包了。
 
@@ -449,5 +449,5 @@ gradle rebuild 之后，查看 gradle task
 
 登录 [stagingRepositories](https://s01.oss.sonatype.org/#stagingRepositories)，点击你的 respository, 点击 Activity。如果校验成功点击 Close, 然后点击 Release.
 Lirary 就 release 成功了。等几个小时后就可以去 [Maven Central Search](https://search.maven.org/) 中 搜索你的 Library 了。
-![maven-release](https://github.com/hupangu/hupangu.github.io/tree/dev/assets/maven-release.png)
+![maven-release](/assets/images/maven-release.png)
 
